@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -353,4 +354,94 @@ textarea {
 	background: #ccc;
 	color: #000;
 	padding: 0.2em 0;
+}
+
+/*Начало*/
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.header {
+	width: 100%;
+	height: 100%;
+	min-height: 100px;
+	background: #000;
+	display: flex;
+	align-items: center;
+}
+.header__container-menu {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container-menu__logo {
+	width: 70px;
+	height: 70px;
+}
+.logo {
+	width: 100%;
+}
+
+.nav__list {
+	display: flex;
+}
+.link__a {
+	margin: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+.link__a:hover:not(first-child) {
+	color: #E3A223;
+}
+
+.Activ {
+	font-weight: bold;
+	color: #E3A223;
+	text-decoration: none;
+	margin: 0 20px;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+}
+.contact__number {
+	color: #fff;
+	font-size: 14;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+}
+
+.user-menu {
+	display: flex;
+	align-items: center;
+}
+.user-menu__back {
+	width: 100%;
+	height: 100%;
+	min-width: 49px;
+	min-height: 49px;
+	background: #fff;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.user-menu__trg {
+	margin: 0 0 0 10px;
+}
+
+.back__name {
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
 }
