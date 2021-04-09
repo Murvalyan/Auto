@@ -386,6 +386,7 @@ body {
 	width: 70px;
 	height: 70px;
 }
+
 .logo {
 	width: 100%;
 }
@@ -393,6 +394,7 @@ body {
 .nav__list {
 	display: flex;
 }
+
 .link__a {
 	margin: 0 20px;
 	color: #fff;
@@ -452,7 +454,8 @@ body {
 }
 
 .container2 {
-	width: 1170px;
+	width: 100%;
+	max-width: 1170px;
 	margin: 0 auto;
 	background: #B8F2EB;
 	border-radius: 20px;
@@ -503,4 +506,116 @@ body {
 	background: #FFFFC0;
 	border-radius: 100%;
 	box-shadow: 0 15px 70px #FFFF98;
+}
+
+.section-select__title {
+	font-size: 48px;
+	font-weight: bold;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	padding: 0 0 85px 0;
+}
+.section-select__block0 {
+	width: 100%;
+	min-height: 275px;
+	background: #fff;
+	border: 1px solid #A5A5A5;
+	border-radius: 35px;
+}
+.select-block0__subtitle {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	padding: 18px 0;
+}
+
+.first-line {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 42px 0;
+}
+.first-line__select {
+	margin: 0 20px;
+}
+.first-line__btn {
+	width: 100%;
+	max-width: 126px;
+	min-width: 126px;
+	height: 100%;
+	min-height: 60px;
+	border-radius: 15px;
+	background: #FF5353;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	font-family: inherit;
+}
+
+.first-line:last-child {
+	margin: 0;
+}
+
+.select {
+	position: relative;
+}
+.select::after {
+	content: "";
+	display: inline-block;
+	border-style: solid;
+	border-width: 9px 6px 0 6px;
+	border-color: #000000 transparent transparent transparent;
+	position: absolute;
+	top: 50%;
+	right: 1rem;
+	margin: -4px 0 0 0;
+}
+.select__form {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-width: 126px;
+	padding: 25px 25px 25px 20px;
+	background: none;
+	border: 1px solid #cecece;
+	-webkit-appearance: none;
+	appearance: none;
+	font-family: inherit;
+	font-size: 12px;
+	color: #000;
+}
+
+.sorting .block-sorting2__svg-icon-menu {
+	cursor: pointer;
+}
+.sorting__line-grey {
+	border: 1px solid #A5A5A5;
+	opacity: 0.8;
+	margin: 12px 0;
+}
+.sorting__container {
+	width: 870px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.sorting__block1 {
+	display: flex;
+	align-items: center;
+}
+.sorting__block1 h4 {
+	font-size: 14px;
+	color: #000;
+	padding: 0 15px;
+}
+.sorting__block2 {
+	display: flex;
+	align-items: center;
+}
+.sorting__block2 img.block-sorting2__svg-icon-menu:not(:first-child) {
+	margin: 0 0 0 20px;
 }
