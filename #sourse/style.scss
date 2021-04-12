@@ -327,3 +327,138 @@ body {
 	}
 }
 
+.main {
+	&__container-card {
+		background: #fff;
+		border:1px solid #000;
+		border-radius: 25px;
+		margin: 0 0 15px 0;
+	}
+}
+
+.container-card {
+	&__content {
+	}
+}
+.card-content {
+	display: flex;
+	align-items: center;
+	padding: 17px;
+	&__information-part {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		padding: 0 25px 0 0;
+	}
+	&__purchase-part {
+	}
+}
+.information-part {
+	&__photo {
+	}
+	&__description {
+	}
+}
+.card-photo {
+	width: 100vw;
+	height: 100vh;
+	max-width: 212px;
+	max-height: 212px;
+	margin: 0 8px 0 0;
+	&__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+		border-radius: 25px;
+
+	}
+}
+.card-description {
+	width: 100%;
+	padding: 0 0 0 8px;
+	&__title {
+		font-size: 18px;
+		font-weight: bold;
+		color:#000;
+		padding: 0 0 15px 0;
+	}
+	&__info {
+	}
+}
+.card-info {
+	&__line {
+	}
+}
+.card-line {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 15px 0;
+	position: relative;
+	&::after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 1px;
+		background: #E5E5E5;
+		position: absolute;
+		left: 0;
+		bottom: 30%;
+		
+	}
+	&__text {
+		font-size: 14px;
+		color: #000;
+	}
+}
+.purchase-part {
+	&__content {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 0 0 25px;
+	}
+	&__title {
+		font-size: 24px;
+		font-weight: bold;
+		color: #FF0000;
+	}
+	&__btn {
+		width: 400px;
+		height: 45px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 15px;
+		border: none;
+		background: #FF0000;
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		margin: 35px 0;
+	}
+	&__contact {
+	}
+}
+.contact__number_black {
+	color:#000;
+}
+
+.main__download-car {
+	width: 400px;
+	height: 40px;
+	background: #000;
+	border: none;
+	border-radius: 15px;
+
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:30px auto 50px auto;
+}
