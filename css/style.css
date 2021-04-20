@@ -456,6 +456,36 @@ body {
 	display: flex;
 }
 
+.drop__list {
+	width: 100%;
+	background: #000;
+}
+
+.drop__list a {
+	width: 100%;
+	margin: 10px 0;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0 10px 0;
+}
+.drop__list a:hover {
+	background: #fff;
+	transition: 0.3s;
+}
+
+nav li.nav__drop {
+	position: relative;
+}
+
+nav ul.drop__list {
+	position: absolute;
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
 .link__a {
 	margin: 0 20px;
 	color: #fff;
@@ -464,6 +494,7 @@ body {
 }
 .link__a:hover:not(first-child) {
 	color: #E3A223;
+	transition: 0.3s;
 }
 
 .Activ {
@@ -558,15 +589,28 @@ body {
 	color: #fff;
 }
 
+.block2__camaro {
+	position: absolute;
+}
 .block2__back {
+	position: relative;
 	width: 500px;
 	height: 475px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.block2__back-ab {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 475px;
 	background: #FFFFC0;
 	border-radius: 100%;
 	box-shadow: 0 15px 70px #FFFF98;
+	opacity: 0.7;
+	filter: blur(10px);
 }
 
 .section-select__title {
@@ -575,7 +619,7 @@ body {
 	color: #000;
 	display: flex;
 	justify-content: center;
-	padding: 0 0 85px 0;
+	padding: 85px 0 85px 0;
 }
 .section-select__block0 {
 	width: 100%;
@@ -773,6 +817,10 @@ body {
 	font-weight: bold;
 	margin: 35px 0;
 }
+.purchase-part__btn:hover {
+	background: #000;
+	transition: 0.3s;
+}
 .contact__number_black {
 	color: #000;
 }
@@ -790,4 +838,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 30px auto 50px auto;
+}
+.main__download-car:hover {
+	color: #FF0000;
+	transition: 0.3s;
+}
+
+.card-dsp-none {
+	display: none;
 }
